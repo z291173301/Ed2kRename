@@ -19,7 +19,7 @@ python Ed2kRename.py
 ## 本地打包
 
 ```bash
-pyinstaller -F -w -i logo.ico Ed2kRename.py
+python -m PyInstaller -F -w -i logo.ico Ed2kRename.py
 ```
 
 生成的程序位于 `dist/Ed2kRename.exe`。
